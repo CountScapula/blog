@@ -1,3 +1,10 @@
+body {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+}
+
+
 nav {
     position: absolute;
     width: 100%;
@@ -5,6 +12,7 @@ nav {
 
 nav ul {
     float: right;
+    margin-top: 8px;
 }
 
 nav a {
@@ -16,7 +24,8 @@ nav ul li {
     color: white;
     font-family: "Muli", monospace;
     display: inline;
-    margin-right: 1em;
+    margin-right: 1.3em;
+    font-size: 2vw;
 }
 
 nav ul li:hover {
@@ -33,63 +42,50 @@ nav ul li:hover {
     display: flex;
 }
 
-#banner-content {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+#banner-text {
     margin: auto;
-}
-
-#banner-text-container {
-    float: left;
-    width: 80vw;
-    top: 45vh;
-    position: relative;
-}
-.banner-text {
-    color: white;
-    font-family: "Montserrat", monospace;
-    text-align: left;
-    margin: 0;
+    max-width: 1920px;
 }
 
 #name {
-    font-size: 4em;
+    font-size: 3vw;
+    font-weight: 550;
+    margin: 0;
 }
 
 #occupation {
-    font-size: 1.5em;
-    margin-top: 0.5em;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 5px;
 }
 
-#profile-picture {
-    border-radius: 50%;
-    height: 30%;
-    position: relative;
-    float: right;
-    margin-right: 20%;
-    vertical-align: middle;
+.banner-text {
+    color: white;
+    font-family: "Montserrat", monospace;
 }
 
-#about {
-    height: 100vh;
-    max-width: 100%;
+
+/* Desktop */
+@media only screen and (max-width: 768px) {
+    #name {
+        font-size: 6vw;
+        font-weight: 550;
+    }
+    
+    #occupation {
+        font-size: 3vw;
+        font-weight: 400;
+        margin-top: 5px;
+    }
 }
 
-#about-content {
-    width: 60%;
-    margin: auto;
-    font-family: "Muli", monospace;
-    display: flexbox;
-}
+/* High Resolution Screens */
+@media only screen and (min-width: 2560px) {
+    nav ul {
+        margin-top: 1em;
+    }
 
-#content {
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    width: 100vw;
-    max-width: 100%;
-    margin: 0;
+    nav ul li {
+        font-size: 0.8vw;
+    }
 }
