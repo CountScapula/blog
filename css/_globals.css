@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+body {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+}
+
+#current-page {
+    color: greenyellow;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-top: 8px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: white;
+    font-family: "Lato", monospace;
+    display: inline;
+    margin: 10px 1.3em 0 0;
+}
+
+nav ul li:hover {
+    color: #acff05;
+    opacity: 1;
+}
+
+.main-text {
+    color: white;
+    font-family: "Oxygen", monospace;
+    font-weight: 400;
+}
+
+#indent {
+    margin-left: 2em;
+}

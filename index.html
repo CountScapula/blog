@@ -2,6 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/index.css">
+  <script type="text/javascript" src="js/index.js"></script>
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +16,7 @@
 <body>
     <nav>
         <ul>
-            <li>Home</li>
+            <li id="current-page">Home</li>
             <a href="about.html"><li>About</li></a>
             <a href="docs/Callum Lawson-Smith - Resume.pdf"><li>Resume</li></a>
         </ul>
@@ -22,7 +24,10 @@
     <section id="banner">
         <div id="banner-text">
             <h1 id="name" class="banner-text">Callum Lawson-Smith</h1>
-            <h2 id="occupation" class="banner-text">Software Developer</h2>
+            <p id="occupation" class="banner-text">Software Developer</p>
+            <a href="https://github.com/ccaalluumm"><img class="logo" src="img/github-icon.png" onmouseover="icon_hover(this)" onmouseout="icon_unhover(this)" id="github-icon"></a>
+            <a href="https://www.linkedin.com/in/callum-lawson-smith/"><img class="logo" src="img/linkedin-icon.png" onmouseover="icon_hover(this)" onmouseout="icon_unhover(this)" id="linkedin-icon"></a>
+            <a href="mailto:callum.lawson-smith@outlook.com"><img class="logo" src="img/email-icon.png" onmouseover="icon_hover(this)" onmouseout="icon_unhover(this)" id="email-icon"></a>
         </div>
     </section>
 </body>
