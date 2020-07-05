@@ -31,7 +31,7 @@ nav ul li {
     list-style-type: none;
     color: white;
     font-family: "Lato", monospace;
-    display: inline;
+    display: block;
     margin: 10px 1.3em 0 0;
 }
 
