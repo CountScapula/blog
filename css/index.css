@@ -35,9 +35,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-    #banner {
-
-    }
 
     #name {
         font-size: xxx-large;
@@ -46,28 +43,4 @@
     #occupation {
         font-size: x-large;
     }
-}
-
-/*
-==============================
-============ Blog ============
-==============================
-*/
-
-#blog {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-#blog h1 {
-    text-align: center;
-    font-family: "Oxygen", monospace;
-    margin: 3em auto auto auto;
-}
-
-#blog_posts {
-    width: 80%;
-    height: 80%;
 }
