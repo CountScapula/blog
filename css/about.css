@@ -14,9 +14,15 @@
     flex-direction: column;
 }
 
+#headshot {
+    height: 25%;
+    margin: auto auto 0 auto;
+    border-radius: 50%;
+    display: block;
+}
 #about-heading {
     text-align: center;
-    margin: 2em auto 0 auto;
+    margin: 0.8em auto 0 auto;
     font-family: "Oxygen";
 }
 
@@ -30,9 +36,13 @@
     max-width: 800px;
 }
 
-#headshot {
-    height: 25%;
-    margin: auto auto 0 auto;
-    border-radius: 50%;
-    display: block;
+@media only screen and (min-width: 768px) {
+
+    #about {
+        height: 100vh;
+    }
+
+    #occupation {
+        font-size: x-large;
+    }
 }
